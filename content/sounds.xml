@@ -1,0 +1,25 @@
+<sounds root="sfx/">
+   <sound id="1" name="cash sound lol">
+      <sample weight="1" path="CashRegister1.wav"/>
+   </sound>
+    
+   <sound id="1" name="fleshreroll">
+      <sample weight="1" path="fleshreroll.wav"/>
+   </sound>
+    
+   <sound id="1" name="ultrareroll">
+      <sample weight="1" path="ultrareroll.wav"/>
+   </sound>
+
+   <sound id="1" name="goldreroll">
+      <sample weight="1" path="goldreroll.wav"/>
+   </sound>
+
+   <sound id="1" name="click">
+      <sample weight="1" path="clicky click.wav"/>
+   </sound>
+
+   <sound id="1" name="pow pow">
+      <sample weight="1" path="Pow.wav"/>
+   </sound>
+</sounds>

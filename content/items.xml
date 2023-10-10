@@ -1,0 +1,35 @@
+<items gfxroot="gfx/items/" version="1">
+    <active id="1" name="Angelic D6" gfx="angelicD6.png" description="Jesus if he was a cube" quality="4" maxcharges="6" chargetype="normal" tags="angel"/>
+    
+    <active id="2" name="Devious D6" gfx="deviousD6.png" description="Evil ass dice" quality="4" maxcharges="6" chargetype="normal" tags="devil"/>
+    
+    <active id="3" name="Blue D6" gfx="blueD6.png" description="Totally not a painted D6" quality="4" maxcharges="6" chargetype="normal"/>
+    
+    <active id="4" name="D6?" gfx="secretD6.png" description="Where did you find this?" quality="4" maxcharges="6" chargetype="normal"/>
+    
+    <active id="5" name="dollar cube" gfx="dollarcube.png" description="mr beast !!" quality="4" maxcharges="4" chargetype="normal"/>
+    
+    <active id="6" name="Keeper's D6" gfx="greedyD6.png" description="Nothing even changed" quality="3" maxcharges="4" chargetype="normal"/>
+    
+    <active id="7" name="Golden D6" gfx="goldenD6.png" description="Local 5 year old carries 20lb block of gold!!!!!" quality="4" maxcharges="12" chargetype="normal"/>
+    
+    <active id="8" name="Crooked D6" gfx="crookedD6.png" description="The 4rd dimension" quality="4" maxcharges="4" chargetype="normal"/>
+    
+    <active id="9" name="Crane D6" gfx="scamD6.png" description="Only 5 cents!" quality="3" maxcharges="4" chargetype="normal"/>
+    
+    <active id="10" name="rock cube" gfx="rockcube.png" description="dwane the rok !!" quality="3" maxcharges="4" chargetype="normal"/>
+    
+    <active id="11" name="Glass D6" gfx="glassD6.png" description="Handle with caution" quality="4" maxcharges="0" chargetype="normal"/>
+    
+    <active id="12" name="Chaos D6" gfx="chaosD6.png" description="9/10 gamblers quit before they win big" quality="4" maxcharges="6" chargetype="normal"/>
+    
+    <active id="13" name="Error D6" gfx="errorD6.png" description="Xkxurr euax jkyzote" quality="0" maxcharges="4" chargetype="normal"/>
+    
+    <active id="14" name="Lazy D6" gfx="lazyD6.png" description="OOOOOOOAAAAAAAAAAAAA!!!!!!!!!" quality="4" maxcharges="8" chargetype="normal"/>
+
+    <active id="15" name="Glitched D6" gfx="glitchedD6.png" description="bro this buggy as fuck" quality="4" maxcharges="8" chargetype="normal"/>
+
+    <active id="16" name="Russian Roulette" gfx="funnyrussiagun.png" description="oops all brains" quality="2" maxcharges="0" chargetype="normal"/>
+
+    <passive></passive>
+</items>
