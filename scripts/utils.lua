@@ -4,7 +4,7 @@ local MAX_ROLL_COUNT = 5000
 local itemPool = Game():GetItemPool()
     local itemConfig = Isaac.GetItemConfig()
 
--- Get items of certain quality.
+-- Get items of certain quality. (I DON'T USE THIS ANYMORE, IT TYPICALLY CRASHES MY GAME FOR WHATEVER REASON.)
 function utils.ItemOfQuality(minQuality, maxQuality, pool, fallback, removeItems)
     minQuality = minQuality or 0
     maxQuality = maxQuality or 4
@@ -40,6 +40,21 @@ utils.GetChaosQuality = function (minQ, maxQ)
         local item = itemConfig:GetCollectible(i)
 
         if item and item.Quality >= minQ and item.Quality <= maxQ and not item:HasTags(ItemConfig.TAG_QUEST) then
+            table.insert(items, i)
+        end
+    end
+
+    return items
+end
+
+-- This grabs all the items that are in a certain tag (i.e. Seraphim, Leviathan, Conjoined, etc...) and puts them in a table.
+utils.FindTaggedItems = function (tag)
+    local items = {}
+
+    for i=1, CollectibleType.NUM_COLLECTIBLES do
+        local item = itemConfig:GetCollectible(i)
+
+        if item and item:HasTags(tag) then
             table.insert(items, i)
         end
     end

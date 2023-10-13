@@ -19,7 +19,3 @@ function mod:useAngelicD6()
 end
 
 mod:AddCallback(ModCallbacks.MC_USE_ITEM, mod.useAngelicD6, utils.ItemID("Angelic D6"))
-
-if not EID then return end
-
-EID:addCollectible(utils.ItemID("Angelic D6"), "{{AngelRoom}} Rerolls any pedestal item in the room into a pedestal item from the Angel Room pool.", "Angelic D6", "en_us")

@@ -8,7 +8,7 @@ function mod:useGlassD6(player, rng)
         SFXManager():Play(SoundEffect.SOUND_GLASS_BREAK)
         player:AnimateSad()
         Isaac.Spawn(EntityType.ENTITY_EFFECT, EffectVariant.PLAYER_CREEP_RED, 1, player.Position, Vector(0,0), nil)
-        player:RemoveCollectible(CollectibleType.COLLECTIBLE_GLASS_DICE)
+        player:RemoveCollectible(utils.ItemID("Glass D6"))
     else
         player:UseActiveItem(CollectibleType.COLLECTIBLE_D6)
         SFXManager():Play(SoundEffect.SOUND_THUMBSUP)

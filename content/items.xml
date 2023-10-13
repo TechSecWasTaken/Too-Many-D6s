@@ -31,5 +31,9 @@
 
     <active id="16" name="Russian Roulette" gfx="funnyrussiagun.png" description="oops all brains" quality="2" maxcharges="0" chargetype="normal"/>
 
-    <passive></passive>
+    <active id="17" name="Shitty D6" gfx="shittyD6.png" description="man this is shit" quality="0" maxcharges="2" chargetype="normal"/>
+
+    <active id="18" name="Baby D6" gfx="babyD6.png" description="goo goo ga ga" quality="3" maxcharges="5" chargetype="normal"/>
+
+    <active id="19" name="Angry D6" gfx="angryD6.png" description="You should see a therapist" quality="3" maxcharges="6" chargetype="normal"/>
 </items>

@@ -1,7 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<name>Too Many D6s</name>
-	<directory>too many d6s</directory>
-	<description/>
-	<version>1.0</version>
-	<visibility/>
+    <name>Too Many D6s</name>
+    <directory>too many d6s</directory>
+    <id>3048860811</id>
+    <description>[h2] DISCLAIMER [/h2]
+
+[b]This mod is meant to be unbalanced, since the whole gimmick is that there are tons of D6s. You shouldn't download a mod adding tons of D6s if you want to have a balanced game.[/b]
+
+[h1] Too Many D6s! [/h1]
+
+The  Too Many D6s mod is a mod that implements over 15 new dices into the game, each with new and unique functions that can either ruin your run or turn your run disgustingly OP. Currently there are 19 dices, with 3 being secret joke dices.
+
+[h1] Items [/h1]
+
+[b][u] Angelic D6 [/u][/b]
+
+The Angelic D6 is a 6 charge, quality 4 active item that, when used, rerolls every pedestal item in the room into an item from the Angel Room pool.
+
+[b][u] Devious D6 [/u][/b]
+
+The Devious D6 is a 6 charge, quality 4 active item that, when used, rerolls every pedestal item in the room into an item from the Devil Room pool.
+
+[b][u] Blue D6 [/u][/b]
+
+The Blue D6 is a 6 charge, quality 4 active item that, when used, rerolls every pedestal item in the room into an item from the Ultra Secret Room pool.
+
+[b][u] D6? [/u][/b]
+
+The D6? is a 6 charge, quality 4 active item that, when used, rerolls every pedestal item in the room into an item from the Secret Room pool.
+
+[b][u] Keeper's D6 [/u][/b]
+
+The Keeper's D6 is a 4 charge, quality 3 active item that, when used, rerolls every pedestal item in the room into an item from the Shop pool.
+
+[b][u] Golden D6 [/u][/b]
+
+The Golden D6 is a 12 charge, quality 4 active item that, when used, rerolls every pedestal item in the room into a quality 3 or 4 active item, but gives the player 2 broken hearts.
+
+[b][u] Crooked D6 [/u][/b]
+
+The Crooked D6 is a 4 charge, quality 4 active item that, when used, has a 50% chance to reroll every pedestal item in the room and duplicate them, but has a 50% chance to remove every item in the room and spawn a Dice Shard.
+
+[b][u] Crane D6 [/u][/b]
+
+The Crane D6 is a 4 charge, quality 3 active item that, when used, rerolls every pedestal item in the room into an item from the Crane Game pool, but removes 5 coins.
+
+[b][u] Glass D6 [/u][/b]
+
+The Glass D6 is a 0 charge, quality 4 active item that, when used, has an 80% chance to reroll every pedestal item in the room, but has a 20% chance to damage the player, remove the Glass D6 and leave a puddle of blood creep.
+
+[b][u] Chaos D6 [/u][/b]
+
+The Chaos D6 is a 6 charge, quality 4 active item that, when used, rerolls every pedestal item in the room into an item from any item pool.
+
+[b][u] Error D6 [/u][/b]
+
+The Error D6 is a 4 charge, quality 0 active item that, when used, rerolls every pedestal item in the room into a TMTrainer item, but has a 33% chance to use the D4 when the player takes damage. The item's use effect is reversed if the player has TMTrainer.
+
+[b][u] Lazy D6 [/u][/b]
+
+Lazy D6 is an 8 room charge active item that rolls items into quality 3-4 items, for the downside of losing a little bit of shotspeed.
+
+[b][u] Glitched D6 [/u][/b]
+
+Glitched D6 is an 8 room charge active item that rolls any pedestal and turns it into a glitched crown pedestal. (FOR PEOPLE LOOKING AT THE CODE, WIP-GLITCHEDD6.LUA IS SOMETHING I WAS MESSING AROUND WITH. NOT WORTH YOUR TIME.)
+
+[b][u] Russian Roulette [/u][/b]
+
+Russian Roulette is an infinite charge active item that spawns a quality 4 pedestal from any pool. But there is a 1/6 chance for you to die.
+
+[h1] Other [/h1]
+
+If you have any other suggestions for the mod, please leave them in [url=https://discord.gg/SQhDnKTpGy] THIS [/url] discord server.
+
+[h1] Credits [/h1]
+
+[b]TechSec[/b] - Programmer and Owner
+[b]Pairless[/b] - Programmer, artist, and Former Co-Owner
+[b]LandonThePancake[/b] - Made Russian Roulette idea and sprite.</description>
+    <version>1.1</version>
+    <visibility>Public</visibility>
 </metadata>
