@@ -41,6 +41,8 @@
         <Item Name="Russian Roulette" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
 
         <Item Name="Glitched D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Dice Set" Weight="0.2" DecreaseBy="1" RemoveOn="0.1" />
     </Pool>
     
     <Pool Name="angel">
@@ -67,6 +69,8 @@
         <Item Name="Shitty D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
 
         <Item Name="Glitched D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Death D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
     </Pool>
 
     <Pool Name="shop">

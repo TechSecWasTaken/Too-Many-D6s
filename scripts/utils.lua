@@ -62,4 +62,10 @@ utils.FindTaggedItems = function (tag)
     return items
 end
 
+-- Finds closest safe pickup position
+utils.FindPlayerPickupPositon = function (x,y)
+    local pos = Game():GetRoom():FindFreePickupSpawnPosition(Isaac.GetPlayer().Position + Vector(x,y))
+    return pos
+end
+
 return utils

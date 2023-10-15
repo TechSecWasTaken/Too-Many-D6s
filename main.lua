@@ -19,10 +19,13 @@ local v1Scripts = { -- Put D6 scripts here!!!!!!!
 }
 
 local v2Scripts = {
+    "deathD6",
+    "diceSet",
     "glitchedD6",
     "lazyD6",
     "revolverD6",
-    "shittyD6"
+    "shittyD6",
+    "walletD6"
 }
 
 local EIDScripts = {

@@ -2,7 +2,7 @@ local mod = TooManyD6s
 local utils = require("scripts.utils")
 local items = utils.FindTaggedItems(ItemConfig.TAG_BABY)
 
-function mod:UseBabyD6()
+function mod:useBabyD6()
     local entites = Isaac.GetRoomEntities()
 
     for _, entity in ipairs(entites) do
@@ -19,4 +19,4 @@ function mod:UseBabyD6()
     return true
 end
 
-mod:AddCallback(ModCallbacks.MC_USE_ITEM, mod.UseBabyD6, utils.ItemID("Baby D6"))
+mod:AddCallback(ModCallbacks.MC_USE_ITEM, mod.useBabyD6, utils.ItemID("Baby D6"))
