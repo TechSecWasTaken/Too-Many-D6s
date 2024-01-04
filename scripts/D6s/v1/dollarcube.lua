@@ -11,7 +11,7 @@ function mod:useDollarCube()
         end
     end
     
-    SFXManager():Play(SoundEffect.SOUND_MONEY_MONEY)
+    SFXManager():Play(Isaac.GetSoundIdByName("cash sound lol"))
     
     return true
 end

@@ -13,7 +13,7 @@ function mod:useBlueD6()
         end
     end
     
-    SFXManager():Play(SoundEffect.SOUND_BLUE_REROLL)
+    SFXManager():Play(Isaac.GetSoundIdByName("ultrareroll"))
     
     return true
 end

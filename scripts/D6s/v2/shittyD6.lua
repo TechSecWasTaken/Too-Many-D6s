@@ -1,0 +1,21 @@
+local mod = TooManyD6s
+local utils = require("scripts.utils")
+local items = {}
+
+function mod:useShittyD6()
+    items = utils.GetChaosQuality(0, 0)
+    local entites = Isaac.GetRoomEntities()
+
+    for _, entity in ipairs(entites) do
+        if entity.Type == EntityType.ENTITY_PICKUP and entity.Variant == PickupVariant.PICKUP_COLLECTIBLE and entity.SubType ~= 0 and entity.SubType ~= 668 then
+            entity:ToPickup():Morph(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, items[math.random(1,#items)], true)
+            Isaac.Spawn(EntityType.ENTITY_EFFECT, EffectVariant.POOF01, 0, entity.Position, entity.Velocity, nil)
+        end
+    end
+
+    SFXManager():Play(SoundEffect.SOUND_FART)
+
+    return true
+end
+
+mod:AddCallback(ModCallbacks.MC_USE_ITEM, mod.useShittyD6, utils.ItemID("Shitty D6"))

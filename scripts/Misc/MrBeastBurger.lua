@@ -2,8 +2,8 @@ local mod = TooManyD6s
 local utils = require("scripts.utils")
 
 function mod:EvaluateCache()
-    if Isaac:GetPlayer():HasCollectible(utils.ItemID("Mr.Beast Burger")) then
-        Isaac:GetPlayer():AddCoins(-999)
+    if Isaac.GetPlayer():HasCollectible(utils.ItemID("Mr.Beast Burger")) then
+        Isaac.GetPlayer():AddCoins(-999)
     end
 end
 

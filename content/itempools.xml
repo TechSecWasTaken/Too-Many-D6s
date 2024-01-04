@@ -16,8 +16,6 @@
 
         <Item Name="Golden D6" Weight="0.15" DecreaseBy="1" RemoveOn="0.1"/>
 
-        <Item Name="Tech D6" Weight="0.25" DecreaseBy="1" RemoveOn="0.1"/>
-
         <Item Name="Dice D6" Weight="0.15" DecreaseBy="1" RemoveOn="0.1"/>
 
         <Item Name="Crooked D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
@@ -25,8 +23,6 @@
         <Item Name="Crane D6" Weight="0.25" DecreaseBy="1" RemoveOn="0.1"/>
 
         <Item Name="Baby D6" Weight="0.3" DecreaseBy="1" RemoveOn="0.1"/>
-
-        <Item Name="How to Reroll" Weight="0.4" DecreaseBy="1" RemoveOn="0.1"/>
 
         <Item Name="Glass D6" Weight="0.25" DecreaseBy="1" RemoveOn="0.1"/>
 
@@ -37,6 +33,16 @@
         <Item Name="Error D6" Weight="0.1" DecreaseBy="1" RemoveOn="0.05"/>
 
         <Item Name="Lucky D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Shitty D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Lazy D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Russian Roulette" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Glitched D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Dice Set" Weight="0.2" DecreaseBy="1" RemoveOn="0.1" />
     </Pool>
     
     <Pool Name="angel">
@@ -59,6 +65,12 @@
         <Item Name="rock cube" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
 
         <Item Name="Error D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Shitty D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Glitched D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Death D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
     </Pool>
 
     <Pool Name="shop">
@@ -76,9 +88,7 @@
 
         <Item Name="Glass D6" Weight="0.3" DecreaseBy="1" RemoveOn="0.1"/>
 
-        <Item Name="How To Reroll" Weight="0.35" DecreaseBy="1" RemoveOn="0.1"/>
-
-        <Item Name="Tech D6" Weight="0.25" DecreaseBy="1" RemoveOn="0.1"/>
+        <Item Name="Error D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
     </Pool>
 
     <Pool Name="error">
@@ -87,6 +97,8 @@
         <Item Name="D6?" Weight="0.5" DecreaseBy="1" RemoveOn="0.1"/>
 
         <Item Name="Error D6" Weight="0.4" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Shitty D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
     </Pool>
 
     <Pool Name="boss">
@@ -95,6 +107,8 @@
 
     <Pool Name="ultraSecret">
         <Item Name="Blue D6" Weight="0.3" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Baby D6" Weight="0.3" DecreaseBy="1" RemoveOn="0.1"/>
 
         <Item Name="Dice D6" Weight="0.1" DecreaseBy="1" RemoveOn="0.05"/>
 
@@ -142,8 +156,6 @@
 
         <Item Name="Golden D6" Weight="0.15" DecreaseBy="1" RemoveOn="0.1"/>
 
-        <Item Name="Tech D6" Weight="0.25" DecreaseBy="1" RemoveOn="0.1"/>
-
         <Item Name="Dice D6" Weight="0.15" DecreaseBy="1" RemoveOn="0.1"/>
 
         <Item Name="Crooked D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
@@ -151,8 +163,6 @@
         <Item Name="Crane D6" Weight="0.25" DecreaseBy="1" RemoveOn="0.1"/>
 
         <Item Name="Baby D6" Weight="0.3" DecreaseBy="1" RemoveOn="0.1"/>
-
-        <Item Name="How to Reroll" Weight="0.4" DecreaseBy="1" RemoveOn="0.1"/>
 
         <Item Name="Glass D6" Weight="0.25" DecreaseBy="1" RemoveOn="0.1"/>
 
@@ -163,6 +173,14 @@
         <Item Name="Error D6" Weight="0.1" DecreaseBy="1" RemoveOn="0.05"/>
 
         <Item Name="Lucky D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Shitty D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Lazy D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Glitched D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
+
+        <Item Name="Russian Roulette" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
     </Pool>
 
     <Pool Name="greedAngel">
@@ -201,22 +219,6 @@
         <Item Name="Baby D6" Weight="0.35" DecreaseBy="1" RemoveOn="0.1"/>
 
         <Item Name="Glass D6" Weight="0.3" DecreaseBy="1" RemoveOn="0.1"/>
-
-        <Item Name="How To Reroll" Weight="0.35" DecreaseBy="1" RemoveOn="0.1"/>
-
-        <Item Name="Tech D6" Weight="0.25" DecreaseBy="1" RemoveOn="0.1"/>
-    </Pool>
-
-    <Pool Name="greedError">
-        <Item Name="Dice D6" Weight="0.3" DecreaseBy="1" RemoveOn="0.1"/>
-
-        <Item Name="D6?" Weight="0.5" DecreaseBy="1" RemoveOn="0.1"/>
-
-        <Item Name="Error D6" Weight="0.4" DecreaseBy="1" RemoveOn="0.1"/>
-    </Pool>
-
-    <Pool Name="greedBoss">
-        <Item Name="Angry D6" Weight="0.4" DecreaseBy="1" RemoveOn="0.1"/>
     </Pool>
     
     <Pool Name="greedCurse">
@@ -234,9 +236,5 @@
     
         <Item Name="Chaos D6" Weight="0.2" DecreaseBy="1" RemoveOn="0.1"/>
     </Pool>
-    
-    <Pool Name="greedLibrary">
-        <Item Name="How to Reroll" Weight="0.4" DecreaseBy="1" RemoveOn="0.1"/>   
-    </Pool>
-    
+
 </ItemPools>

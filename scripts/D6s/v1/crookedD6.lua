@@ -30,7 +30,7 @@ function mod:useCrookedD6()
             if entity.Type == EntityType.ENTITY_PICKUP and entity.SubType ~= 0 and entity.SubType ~= 668 then
                 for _, itemVariant in ipairs(PickupVariantShit) do
                     if entity.Variant == itemVariant then
-                        Isaac.Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_COLLECTIBLE, entity.SubType, Game():GetRoom():FindFreePickupSpawnPosition(playerPos + Vector(0,40)), Vector(0,0), nil)
+                        Isaac.Spawn(EntityType.ENTITY_PICKUP, entity.Variant, entity.SubType, Game():GetRoom():FindFreePickupSpawnPosition(playerPos + Vector(0,40)), Vector(0,0), nil)
                         Isaac.Spawn(EntityType.ENTITY_EFFECT, EffectVariant.POOF01, -1, entity.Position, entity.Velocity, nil)
                     end
                 end

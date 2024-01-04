@@ -1,7 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<name>Too Many D6s</name>
-	<directory>too many d6s</directory>
-	<description/>
-	<version>1.0</version>
-	<visibility/>
+    <name>Too Many D6s! [REP]</name>
+    <directory>too much d6s</directory>
+    <id>3003981009</id>
+    <description>[h2] DISCLAIMER [/h2]
+
+[b]This mod is meant to be unbalanced, since the whole gimmick is that there are tons of D6s. You shouldn't download a mod adding tons of D6s if you want to have a balanced game.[/b]
+
+[h1] Too Many D6s! [/h1]
+
+The  Too Many D6s mod is a mod that implements over 15 new dices into the game, each with new and unique functions that can either ruin your run or turn your run disgustingly OP. Currently there are 19 dices, with 3 being secret joke dices.
+
+[h1] Items [/h1]
+
+[b][u] Angelic D6 [/u][/b]
+
+The Angelic D6 is a 6 charge, quality 4 active item that, when used, rerolls every pedestal item in the room into an item from the Angel Room pool.
+
+[b][u] Devious D6 [/u][/b]
+
+The Devious D6 is a 6 charge, quality 4 active item that, when used, rerolls every pedestal item in the room into an item from the Devil Room pool.
+
+[b][u] Blue D6 [/u][/b]
+
+The Blue D6 is a 6 charge, quality 4 active item that, when used, rerolls every pedestal item in the room into an item from the Ultra Secret Room pool.
+
+[b][u] Angry D6 [/u][/b]
+
+The Angry D6 is a 3 charge quality 3 item that, when used, rerolls every pedestal item in the room into an item from the Boss Room pool.
+
+[b][u] D6? [/u][/b]
+
+The D6? is a 6 charge, quality 4 active item that, when used, rerolls every pedestal item in the room into an item from the Secret Room pool.
+
+[b][u] Keeper's D6 [/u][/b]
+
+The Keeper's D6 is a 4 charge, quality 3 active item that, when used, rerolls every pedestal item in the room into an item from the Shop pool.
+
+[b][u] Golden D6 [/u][/b]
+
+The Golden D6 is a 12 charge, quality 4 active item that, when used, rerolls every pedestal item in the room into a quality 3 or 4 active item, but gives the player 2 broken hearts.
+
+[b][u] Crooked D6 [/u][/b]
+
+The Crooked D6 is a 4 charge, quality 4 active item that, when used, has a 50% chance to reroll every pedestal item in the room and duplicate them, but has a 50% chance to remove every item in the room and spawn a Dice Shard.
+
+[b][u] Crane D6 [/u][/b]
+
+The Crane D6 is a 4 charge, quality 3 active item that, when used, rerolls every pedestal item in the room into an item from the Crane Game pool, but removes 5 coins.
+
+[b][u] Baby D6 [/u][/b]
+
+The Baby D6 is a 5 charge quality 3 active item that, when used, rerolls every pedestal item in the room into a Conjoined item.
+
+[b][u] Glass D6 [/u][/b]
+
+The Glass D6 is a 0 charge, quality 4 active item that, when used, has an 80% chance to reroll every pedestal item in the room, but has a 20% chance to damage the player, remove the Glass D6 and leave a puddle of blood creep.
+
+[b][u] Chaos D6 [/u][/b]
+
+The Chaos D6 is a 6 charge, quality 4 active item that, when used, rerolls every pedestal item in the room into an item from any item pool.
+
+[b][u] Error D6 [/u][/b]
+
+The Error D6 is a 4 charge, quality 0 active item that, when used, rerolls every pedestal item in the room into a TMTrainer item. The item's use effect is reversed if the player has TMTrainer.
+
+[b][u] Lazy D6 [/u][/b]
+
+Lazy D6 is an 8 room charge active item that rolls items into quality 3-4 items, for the downside of losing a little bit of shotspeed.
+
+[b][u] Glitched D6 [/u][/b]
+
+Glitched D6 is an 8 room charge active item that rolls any pedestal and turns it into a glitched crown pedestal. (FOR PEOPLE LOOKING AT THE CODE, WIP-GLITCHEDD6.LUA IS SOMETHING I WAS MESSING AROUND WITH. NOT WORTH YOUR TIME.)
+
+[b][u] Russian Roulette [/u][/b]
+
+Russian Roulette is an infinite charge active item that spawns a quality 4 pedestal from any pool. But there is a 1/6 chance for you to die.
+
+[b][u] Sh*tty D6 [/u][/b]
+
+Shitty D6 is a 2 charge active item that rolls into Quality 0 items.
+
+[b][u] Death D6 [/u][/b]
+
+Death D6 is a 4 charge item where on roll, has a 5% chance to roll any pedestal into a Death Certificate. The other 95% deletes the item entirely. (Luck gets added to your chance. 15 luck = 20% or +15%.)
+
+[b][u] Wallet D6 [/u][/b]
+
+Wallet D6 is a 6 room charge that rerolls your money. It can reroll from 0-99. (And with deep pockets 0-999)
+
+[b][u] Dice Set [/u][/b]
+
+Dice Set is a 6 charge item that plays Yahtzee! Here's the results explained:
+
+- Yahtzee!
+Gives 3 quality 4 items.
+
+- Large Straight
+Gives 5 items from qualities 1-3.
+
+- Small straight
+Gives 5 items from qualities 0-2, and gives a damage up.
+
+- Sums:
+0-10 = Spawns attack flies.
+11-15 = Damage up.
+16-20 = Rerolls items to Qualities 0-2.
+21-25 = Damage up.
+26-29 = Rerolls items to Quality 4.
+30 = Damage, range, and tears up.
+
+[h1] Other [/h1]
+
+If you have any other suggestions for the mod, please leave them in [url=https://discord.gg/SQhDnKTpGy] THIS [/url] discord server.
+
+[h1] Credits [/h1]
+
+[b]TechSec[/b] - Programmer and Owner
+[b]Pairless[/b] - Programmer, artist, and Former Co-Owner
+[b]Chara_mads[/b] - Programmer
+[b]LandonThePancake[/b] - Made Russian Roulette idea and sprite.
+[b]Monwil[/b] - Made Glass D6. (Originally from Diceaster)
+[b]Kittenchilly[/b] - Made Chaos D6. (Originally Chaos Dice)
+[b]Babyshoebox[/b] - Made Death D6. (Origianlly Death Dice)
+</description>
+    <version>2.8</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Items"/>
+    <tag id="Active Items"/>
+    <tag id="Graphics"/>
 </metadata>
